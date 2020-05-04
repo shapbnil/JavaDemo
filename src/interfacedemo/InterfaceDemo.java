@@ -5,7 +5,6 @@ public interface InterfaceDemo {
 	//i is final variable
 	 int i=10;
 	//Interface contains only abstract methods, no non abstract methods
-	 // Interface has no body
 	public abstract void m1() ;
 	public  void m2() ;
 		

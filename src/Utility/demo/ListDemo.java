@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Stack;
 import java.util.Vector;
 
-public class UtilityDemo {
+public class ListDemo {
 
 	//To store group of individual values
 	public static void arrayListDemo() {

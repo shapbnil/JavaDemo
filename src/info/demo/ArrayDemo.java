@@ -31,8 +31,6 @@ public class ArrayDemo {
 			}
 			String s[]=new String[10];
 			s[0]="Today's Deal";
-			s[1]="Tomorrow's Deal";
-			System.out.println(s[0]="Today's Deal");
 			
 			
 			int iii[] =new int[]{10,40,50,60};

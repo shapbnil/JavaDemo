@@ -7,6 +7,8 @@ public class ArrayTest {
 	
 //To over come this Utility package came
 	
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] s=new int[5];

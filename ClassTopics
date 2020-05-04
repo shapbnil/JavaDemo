@@ -1,6 +1,4 @@
-JAVA
-------------------------------------
- OOPS
+1. OOPS
 	Class and Methods
 	Inheritence
 	Polymarphisam
@@ -20,46 +18,25 @@ JAVA
 	
 	static
 	conditions -- if else, for while loop
-   utility
 	
-	SELENIUM
-	-------------------
+	
+	Selenium
+	https://www.irctc.co.in/nget/profile/user-registration
 1. Drop Down
-2. WebTable
+2. Table
 3. Window
-4. iFrame
+4. Frame
 5. Assert
-6.  DatePicker/Calendar...?
+6. Claender
 7. Alert
 8. cross Browsing
-9. Different Browser Driver open
+9. Drifferent Browser Driver open
 10. Mouse Actions
 11. Drug & Drop
 12. Screenshot
-13. Upload & Download a File....?
-14. Verify Tooltip
-15. Find All/Broken links...
-16. ExCEL
-17. Database Testing using Selenium.....?
-18. Headless Browser...?
-19. Robot Class ....?
-20. AutoIT with Selenium...?
-21. Handle AJAX...?
-22. Implicit, Explicit, & Fluent
-23. Exception Handling
-24. POM
-25. TestNG
-26. Customize, PDF & Email TestNG Reports...?
-27. desired capabilities...?
-28. Dataprovider
-29. Log4j...?
-30.parameterization
-31. JavaScriptExcutor
-32. Scroll Down or UP...?
-33. use Sikuli with Selenium....?
-34. BDD Cucumber...?
-35. Git & GitHub...?
-36. Jenkins...?
-37. Using SoapUI in Selenium....?
-38. POSTMAN
-39. JIRA...?
+13. ExCEL
+14.POM
+15.TestNG
+16. BDD Cucumber
+17. paremeterizition
+18. JavaScriptExcutor

@@ -5,7 +5,7 @@ public class ConstructorDemo extends Constructor1{
 	ConstructorDemo(int b,int c){
 		super(c,b);
 		System.out.println(b);//20
-		System.out.println(c);	//50	
+		System.out.println(c);	//30	
 	}
 	public static void main(String[] args) {
 		
