@@ -42,7 +42,7 @@ public class SetDemo {
 	
 	public static void main(String[] args) {
 		hashSetDemo();
-		LinkedHashSetDemo();
-		treeSetDemo();
+		//LinkedHashSetDemo();
+		//treeSetDemo();
 	}
 }

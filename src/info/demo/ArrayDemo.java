@@ -20,7 +20,7 @@ public class ArrayDemo {
 			//l[3]=20;
 			l[9]=20;
 			
-			//l[10]=50;
+		//	l[10]=50;
 			
 			System.out.println(l[0]);//0
 			System.out.println(l[5]);//0

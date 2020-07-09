@@ -40,7 +40,7 @@ public class ListDemo {
 	public static void linkedListDemo() {
 		
 		//Diff between Array\list and \linked list
-		//\insert value at middle easy in linked list when compare to Array \list
+		//insert value at middle easy in linked list when compare to Array \list
 		//Linked list mechanisam follow in LL
 		LinkedList al=new LinkedList();
 		al.add(10);
@@ -81,6 +81,7 @@ public class ListDemo {
 	
 	public static void main(String[] args) {
 		arrayListDemo();
+		
 		/*
 		 * linkedListDemo(); vectorDemo(); stackDemo();
 		 */

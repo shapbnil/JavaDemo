@@ -33,6 +33,7 @@ public class ArrayTest {
 		int [][] sss=new int[2][2];
 		sss[0][0]=10;
 		sss[0][1]=20;
+	
 		System.out.println(sss[1][1]);	
 		
 		int [][] ssss= {{10,20},{50,60}};

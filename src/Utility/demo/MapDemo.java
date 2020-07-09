@@ -11,7 +11,7 @@ public class MapDemo {
 
 	//To store values in key value pair
 	//Key can't be duplicate, value can be duplicate
-	
+
 	
 	public static void HashMapDemo() {
 		HashMap<String , String> hm=new HashMap<String, String>();
@@ -38,7 +38,7 @@ public class MapDemo {
 		}
 	}
 	
-	//To store values in key value pair
+	//To store values in key & value pair
 		//Key can't be duplicate, value can be duplicate
 	//it's follow insertion order
 	public static void LinkedHashMapDemo() {
