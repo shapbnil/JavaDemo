@@ -30,6 +30,7 @@ public class StringDemo {
 		System.out.println(arr[0]);
 		System.out.println(arr[1]);
 		System.out.println(s.replaceFirst("t", "T"));
+	
 		
 	}
 

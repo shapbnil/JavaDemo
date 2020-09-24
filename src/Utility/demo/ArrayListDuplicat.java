@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-public class ArrayListDuplicatValue {
+public class ArrayListDuplicat {
 
 	public static void main(String[] args) {
 		ArrayList<Integer> nlist=new ArrayList<>();

@@ -7,12 +7,11 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
-public class MapDemo {
+public class HashMapDemo {
 
 	//To store values in key value pair
 	//Key can't be duplicate, value can be duplicate
 
-	
 	public static void HashMapDemo() {
 		HashMap<String , String> hm=new HashMap<String, String>();
 		hm.put("sno", "100");
@@ -20,22 +19,25 @@ public class MapDemo {
 		hm.put("marks", "99");
 		hm.put("percent", "99");
 		hm.put("sno", "100");
-		System.out.println(hm);
-		System.out.println(hm.get("sno"));
-		System.out.println(hm.size());
+		System.out.println(hm); // Print all the values
+		System.out.println(hm.get("sno")); // print by keys
+		System.out.println(hm.size()); // Print Size of HashMap
 		
+		// Print all the values by using for loop
 		for (Map.Entry<String, String> keyValues : hm.entrySet()) {
 			System.out.println(keyValues.getKey());
 			System.out.println(keyValues.getValue());
 		}
 		
-		Set entrySet= hm.entrySet();
-		Iterator i= entrySet.iterator();
-		while(i.hasNext()) {
-			Map.Entry entry= (Map.Entry)i.next();
-			System.out.println(entry.getKey());
-			System.out.println(entry.getValue());
-		}
+		// Print all the values by using Set and Iterator
+		  Set entrySet= hm.entrySet(); 
+		  Iterator i= entrySet.iterator();
+		  while(i.hasNext()) {
+			  Map.Entry entry= (Map.Entry)i.next();
+		  System.out.println(entry.getKey()); 
+		  System.out.println(entry.getValue()); 
+		  }
+		 
 	}
 	
 	//To store values in key & value pair

@@ -12,7 +12,7 @@ public class Constructor {
 		ss.studentMarks();
 		
 		
-		Student1 sss = new Student1(300, "Peter");
+		Student1 sss = new Student1(400, "Peter");
 		sss.studentMarks();
 	}
 

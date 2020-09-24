@@ -42,7 +42,7 @@ public class NestedForLoop {
 	
 	public static void main(String[] args) {
 		NestedForLoop nfl=new NestedForLoop();
-		nfl.loopOne();
+		//nfl.loopOne();
 		nfl.loopTwo();
 
 	}

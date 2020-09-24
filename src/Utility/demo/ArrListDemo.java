@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Stack;
 import java.util.Vector;
 
-public class ListDemo {
+public class ArrListDemo {
 
 	//To store group of individual values
 	public static void arrayListDemo() {
@@ -52,6 +52,8 @@ public class ListDemo {
 		System.out.println(al.size());
 		System.out.println(al);
 		System.out.println(al.get(2));
+		al.remove(3);
+		System.out.println(al);
 	}
 	
 	public static void vectorDemo() {
@@ -80,10 +82,12 @@ public class ListDemo {
 	}
 	
 	public static void main(String[] args) {
-		arrayListDemo();
+		//arrayListDemo();
 		
-		/*
-		 * linkedListDemo(); vectorDemo(); stackDemo();
-		 */
+		
+		 linkedListDemo(); 
+		// vectorDemo(); 
+		 //stackDemo();
+		
 	}
 }

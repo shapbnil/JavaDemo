@@ -6,7 +6,7 @@ public class NumberFormat {
 
 	public void m1() {
 		// TODO Auto-generated method stub
-		byte b = 12; // 2 bytes //Byte
+		byte b = 12; // 1 bytes //Byte
 		short s = 123;// 2 bytes //Short
 
 		int i = 123; // 4 bytes//Integer
@@ -42,10 +42,16 @@ public class NumberFormat {
 	}
 	
 	public void m3() {
-		//How to convert String to another data type?
+		//How to convert String to another data type(integer)?
+		String str="120";
+		
+		int in=Integer.parseInt(str);
+		int ini=Integer.valueOf(str);
+		System.out.println(in);
+		System.out.println(ini);
+		
 		String s="1200.999988";
 		
-		//int i=Integer.parseInt(s);
 		double f=Double.parseDouble(s);
 		//Double ff=Double.valueOf(f);
 		
@@ -53,8 +59,8 @@ public class NumberFormat {
 		System.out.println(fl);
 		//System.out.println(fl1);
 		
-		//How to convert another data types to String?
-		int i=0;
+		//How to convert another data types(integer) to String?
+		int i=222;
 		String ss=Integer.toString(i);//don't handle null values
 		String sss=String.valueOf(i);//It accept null values
 		
@@ -62,9 +68,20 @@ public class NumberFormat {
 		System.out.println(sss);
 	}
 
+	public void m4() {
+		// Convert String to Integer
+		String s="10";
+		String s1="20";
+		
+		System.out.println(s+s1); //1020
+		int i = Integer.parseInt(s);
+		int j=Integer.parseInt(s1);
+		System.out.println(i+j);//30
+	}
 	public static void main(String[] args) {
 		NumberFormat nm = new NumberFormat();
-		nm.m3();
+		//nm.m3();
+		nm.m4();
 	}
 
 }

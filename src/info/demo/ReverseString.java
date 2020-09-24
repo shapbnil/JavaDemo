@@ -17,6 +17,7 @@ public static void reverseNumber() {
 			System.out.print(s.charAt(i));
 		}
 	}
+
 	public static void reverseString() {
 		String s= "Selenium";
 		
@@ -28,12 +29,22 @@ public static void reverseNumber() {
 				}
 		System.out.println(rev);
 	}
-	
+	// Reverse String using String Buffer
 	public static void stringBufferDemo() {
 		
 		String s= "Mahmud";
 		StringBuffer sf=new StringBuffer(s);
 		System.out.println(sf.reverse());
+	}
+	
+	// Reverse String using String Builder
+	
+	public static void stringBuilderDemo() {
+		String str="Automation";
+		StringBuilder str2=new StringBuilder();
+		str2.append(str);
+		str2=str2.reverse();
+		System.out.println(str2);
 	}
 	
 	public static void main(String[] args) {
@@ -44,6 +55,9 @@ public static void reverseNumber() {
 		 reverseString();
 		 System.out.println();
 		 stringBufferDemo();
+		 System.out.println();
+		 stringBuilderDemo();
+		 
 	}
 
 }

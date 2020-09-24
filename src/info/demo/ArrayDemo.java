@@ -37,6 +37,7 @@ public class ArrayDemo {
 			System.out.println(iii[2]);
 		String sss[]=new String[] {"Venkat","Smith"};
 		System.out.println(sss[1]);
+		System.out.println(sss[0]);
 	}
 
 }
